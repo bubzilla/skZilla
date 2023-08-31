@@ -1,0 +1,11 @@
+name: skZilla
+version: '${project.version}'
+main: bubzilla.skzilla.SkZilla
+api-version: '1.17'
+depend:
+  - Skript
+commands:
+  skzilla:
+      description: Get information about your installation of SkZilla!
+      usage: /<command>
+      permission: op
